@@ -1,0 +1,65 @@
+/* CSS Document */
+* {
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+}
+html {
+	height:100%
+}
+body {
+	text-align:center
+}
+table {
+	border-collapse:collapse;
+	border:0px;
+	width:100%;
+}
+td {
+	vertical-align:top
+}
+th {
+	text-align:left;
+	vertical-align:top
+}
+img {
+	border:none
+}
+h1 {
+	font-size:130%
+}
+h2 {
+	font-size:120%
+}
+h3 {
+	font-size:110%
+}
+h4 {
+	font-size:110%
+}
+p {
+	padding:0px 0px 13px 0px;
+}
+textarea .inputbox {
+	width:300px;
+	height:100px;
+	margin:0px 0px 5px 0px;
+}
+select {
+	height:auto;
+	margin:12px 0px 12px 0px;
+	vertical-align:middle
+}
+ul {
+	list-style:disc;
+	margin:0px 0px 0px 15px;
+}
+ol {
+	margin:0px 0px 0px 15px;
+}
+.width {
+	width:100%
+}
+.main {
+	margin:auto;
+	text-align:left
+}
