@@ -164,7 +164,7 @@ if(isset($_GET['AjaxFunctions']) == TRUE)
         break; 
         case "RecoverLostItemSystem" :
             VerifyLogin();
-            if(!isset($_GET['BuyID'])) exit(Print_error("<script type=\"text/javascript\">alert(\"Erro ao gravar variaveis. Favor tentar efetuar a recuperação novamente.\"); window.location='?';</script>")); 
+            if(!isset($_GET['BuyID'])) exit(Print_error("<script type=\"text/javascript\">alert(\"Erro ao gravar variaveis. Favor tentar efetuar a recuperaï¿½ï¿½o novamente.\"); window.location='?';</script>")); 
             Require_File("modules/vault.class.php");
             Require_File("modules/items.class.php");
             $LD_Items = new LD_Items();
@@ -173,7 +173,7 @@ if(isset($_GET['AjaxFunctions']) == TRUE)
         break;
         case "SearchItemSystem" :
             VerifyLogin();
-            if(!isset($_GET['BuyID'])) exit(Print_error("<script type=\"text/javascript\">alert(\"Erro ao gravar variaveis. Favor tentar efetuar a recuperação novamente.\"); window.location='?';</script>")); 
+            if(!isset($_GET['BuyID'])) exit(Print_error("<script type=\"text/javascript\">alert(\"Erro ao gravar variaveis. Favor tentar efetuar a recuperaï¿½ï¿½o novamente.\"); window.location='?';</script>")); 
             Require_File("modules/recover_lost_item.class.php");                      
             $LD_Recover_Lost_Item = new LD_Recover_Lost_Item($_GET['BuyID'], true);  
         break;
@@ -184,7 +184,7 @@ if(isset($_GET['AjaxFunctions']) == TRUE)
             $LD_Coupon = new LD_Coupon($couponCode);
         break;
     }
-  exit(); //Para a execução da página para retornar o ajax
+  exit(); //Para a execuï¿½ï¿½o da pï¿½gina para retornar o ajax
 }
 
 /*
@@ -296,4 +296,4 @@ else
     $tpl->show();
 } 
 ?>
-<!-- MuShopping v.3.2.3 - Powered by Leandro Daldegam -->
+<!-- MuShopping v.3.2.4 - Powered by Leandro Daldegam -->
