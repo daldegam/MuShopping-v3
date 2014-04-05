@@ -13,7 +13,7 @@ Atenciosamente;
 
 ==================
 
-Shopping para MuOnline Automático Versão 3.2.3
+Shopping para MuOnline Automático Versão 3.2.4
 
 Versão compativel com servidores antigos e novos.
 Versões de 0.97d ate Season 6.3
@@ -390,3 +390,7 @@ define("SYSTEM_DBVERSION", 1); //1 = (Versões antigas sem personal store), 2 = 
  - Adicionado compatibilidade com a versão Season 6 da Titans Tech. [recovery_lost_item.class.php]
 
  - Alterada a versão para 3.2.3 [index.php]
+
+04/04/2014
+- Fixado calculo incorreto de espaço nas versões 97d. [vault.class.php]
+- Alterada a versão para 3.2.4 [index.php]
