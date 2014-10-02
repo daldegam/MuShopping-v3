@@ -13,10 +13,6 @@ Atenciosamente;
 
 ==================
 
-Para adquirir a permissão de uso destes arquivos entre em contato com a www.xteamservers.com (Skype: xteam.servers)
-
-==================
-
 Shopping para MuOnline Automático Versão 3.2.4
 
 Versão compativel com servidores antigos e novos.
