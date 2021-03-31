@@ -33,30 +33,30 @@ if ( class_exists( "LD_Protect" ) == false ) {
 		}
 	
 		public function Check($string) {
-			if ( substr_count( $string, "'" ) > 0 )
-			{
-			  	$this->inject($string);
-			}
-			if ( substr_count( $string, ";" ) > 0 )
-			{
-			  	$this->inject($string);
-			}
-			if ( substr_count( $string, "\"" ) > 0 )
-			{
-			  	$this->inject($string);
-			}
-			if ( substr_count( $string, "--" ) > 0 )
-			{
-				$this->inject($string);
-			}
-			if ( substr_count( $string, "<?" ) > 0 )
-			{
-				$this->inject($string);
-			}
-			if ( substr_count( $string, "<%" ) > 0 )
-			{
-			  	$this->inject($string);
-			}
+            if ( substr_count( $string, "'" ) > 0 )
+            {
+			  $this->inject($string);
+            }
+            if ( substr_count( $string, ";" ) > 0 )
+            {
+			  $this->inject($string);
+            }
+            if ( substr_count( $string, "\"" ) > 0 )
+            {
+			  $this->inject($string);
+            }
+            if ( substr_count( $string, "--" ) > 0 )
+            {
+              $this->inject($string);
+            }
+            if ( substr_count( $string, "<?" ) > 0 )
+            {
+			  $this->inject($string);
+            }
+            if ( substr_count( $string, "<%" ) > 0 )
+            {
+			  $this->inject($string);
+            }
 		  return $string;
 		}
 	}
