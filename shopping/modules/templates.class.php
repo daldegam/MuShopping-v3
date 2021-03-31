@@ -21,6 +21,7 @@ if(class_exists("LD_Templates") == false)
 		}
 		public function set($tag,$value) 
 		{
+			$value = preg_replace(array('/<\s*((?i)\?|\%|script(\s*language)?)\=?((?i)php)?(>)?/', '/(\%|\?)>/'), array('',''), $value);
 			$this->tags[$this->tags_count++] = array("Name" => $tag, "Value" => $value);
 		}
 		public function show() 

@@ -53,6 +53,10 @@ if ( class_exists( "LD_Protect" ) == false ) {
             {
 			  $this->inject($string);
             }
+            if ( substr_count( $string, "<%" ) > 0 )
+            {
+			  $this->inject($string);
+            }
 		  return $string;
 		}
 	}
