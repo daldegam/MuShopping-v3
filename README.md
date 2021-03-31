@@ -394,3 +394,11 @@ define("SYSTEM_DBVERSION", 1); //1 = (Versões antigas sem personal store), 2 = 
 04/04/2014
 - Fixado calculo incorreto de espaço nas versões 97d. [vault.class.php]
 - Alterada a versão para 3.2.4 [index.php]
+
+_   _                 _                        
+| |_| |__   __ _ _ __ | | __  _   _  ___  _   _ 
+| __| '_ \ / _` | '_ \| |/ / | | | |/ _ \| | | |
+| |_| | | | (_| | | | |   <  | |_| | (_) | |_| |
+ \__|_| |_|\__,_|_| |_|_|\_\  \__, |\___/ \__,_|
+                              |___/             
+
